@@ -1,6 +1,6 @@
-# **C Programming Assignments: Strings as Character Arrays**
+# **C Programming Assignment: Strings as Character Arrays**
 
-The assignments are organized into two sections, progressing from implementing string operations manually to using the standard C string library.
+The assignment is organized into two sections, progressing from implementing string operations manually to using the standard C string library.
 
 | Section                          | Problem                                       | Concepts covered                    |
 | -------------------------------- | --------------------------------------------- | ----------------------------------- |
