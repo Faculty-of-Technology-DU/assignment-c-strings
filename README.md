@@ -19,6 +19,8 @@ The assignment is organized into two sections, progressing from implementing str
 
 **Important:** In Section A, no functions from `<string.h>` or `<ctype.h>` are used. Standard input/output functions such as `fgets()` and `printf()` are permitted. Each program is independent and can be saved as a separate `.c` file.
 
+---
+
 ## **Section A — Strings Without String Library Functions**
 
 ### **Problem 1. Determine String Length and Classify Characters**
@@ -85,6 +87,9 @@ int main(void) {
 
 ```
 
+---
+
+
 ### **Problem 2. Copy a String Without Using&#x20;**`strcpy()`
 
 **Problem statement:** Write a C program that reads a string into a character array and copies its contents into another character array without using any string library function.
@@ -123,6 +128,9 @@ int main(void) {
 }
 
 ```
+
+---
+
 
 ### **Problem 3. Compare Two Strings Lexicographically**
 
@@ -188,6 +196,9 @@ int main(void) {
 }
 
 ```
+
+---
+
 
 ### **Problem 4. Concatenate Two Strings Manually**
 
@@ -258,6 +269,9 @@ int main(void) {
 
 ```
 
+---
+
+
 ### **Problem 5. Reverse a String and Check Whether It Is a Palindrome**
 
 **Problem statement:** Write a C program that reads a string, calculates its length manually, and creates a reversed copy of the string without using any string library function.
@@ -315,6 +329,9 @@ int main(void) {
 }
 
 ```
+
+---
+
 
 ### **Problem 6. Find All Occurrences of a Substring**
 
@@ -402,6 +419,9 @@ int main(void) {
 
 ```
 
+---
+
+
 ### **Problem 7. Count Words and Normalize Whitespace**
 
 **Problem statement:** Write a C program that reads a complete sentence into a character array and performs two operations without using any string library function.
@@ -476,6 +496,9 @@ int main(void) {
 
 ```
 
+---
+
+
 ## **Section B — Strings Using Standard Library Functions**
 
 In this section, include `<string.h>` to use the string manipulation functions provided by the C standard library.
@@ -512,6 +535,9 @@ int main(void) {
 }
 
 ```
+
+---
+
 
 ### **Problem 9. Construct a Full Name Using&#x20;**`strcpy()`**&#x20;and&#x20;**`strcat()`
 
@@ -562,6 +588,9 @@ int main(void) {
 }
 
 ```
+
+---
+
 
 ### **Problem 10. Sort an Array of Names Alphabetically Using&#x20;**`strcmp()`
 
@@ -636,6 +665,9 @@ int main(void) {
 }
 
 ```
+
+---
+
 
 ### **Problem 11. Search for Characters and Substrings Using Library Functions**
 
@@ -728,6 +760,9 @@ int main(void) {
 
 ```
 
+---
+
+
 ### **Problem 12. Split a Sentence into Words Using&#x20;**`strtok()`
 
 **Problem statement:** Write a C program that accepts a complete sentence and separates it into individual words using the standard library function `strtok()`.
@@ -791,5 +826,9 @@ int main(void) {
 }
 
 ```
+
+---
+
+
 
 ---
