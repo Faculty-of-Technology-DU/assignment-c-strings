@@ -23,8 +23,6 @@ The assignments are organized into two sections, progressing from implementing s
 
 ### **Problem 1. Determine String Length and Classify Characters**
 
-FILE: 01_string_length.c
-
 **Problem statement:** Write a C program that reads a string containing alphabets, digits, spaces, and special characters. Without using `strlen()` or any character classification library function, calculate the total number of characters in the string. Additionally, classify and count the number of alphabetic characters, numerical digits, whitespace characters (spaces and tabs), and special characters.
 
 The program must traverse the character array manually until the null terminator `'\0'` is encountered. The terminating null character and the newline introduced by input must not be included in the character count.
@@ -89,8 +87,6 @@ int main(void) {
 
 ### **Problem 2. Copy a String Without Using&#x20;**`strcpy()`
 
-FILE: 02_string_copy.c
-
 **Problem statement:** Write a C program that reads a string into a character array and copies its contents into another character array without using any string library function.
 
 Copy each character individually using array indexing. Ensure that the destination array contains a correctly positioned null terminator. Print both the original string and the copied string to verify the operation.
@@ -129,8 +125,6 @@ int main(void) {
 ```
 
 ### **Problem 3. Compare Two Strings Lexicographically**
-
-FILE: 03_string_comparison.c
 
 **Problem statement:** Write a C program to read two strings and compare them lexicographically without using `strcmp()` or any other string library function.
 
@@ -196,8 +190,6 @@ int main(void) {
 ```
 
 ### **Problem 4. Concatenate Two Strings Manually**
-
-FILE: 04_string_concatenation.c
 
 **Problem statement:** Write a C program that reads two strings and combines them into a single string without using `strcat()`, `strcpy()`, or any other string library function.
 
@@ -268,8 +260,6 @@ int main(void) {
 
 ### **Problem 5. Reverse a String and Check Whether It Is a Palindrome**
 
-FILE: 05_reverse_palindrome.c
-
 **Problem statement:** Write a C program that reads a string, calculates its length manually, and creates a reversed copy of the string without using any string library function.
 
 Using the original and reversed character arrays, determine whether the entered string is a palindrome. A palindrome is a string that reads identically in both forward and reverse directions.
@@ -327,8 +317,6 @@ int main(void) {
 ```
 
 ### **Problem 6. Find All Occurrences of a Substring**
-
-FILE: 06_substring_search.c
 
 **Problem statement:** Write a C program to read a main string and a smaller search string (substring). Without using `strstr()` or any other string library function, determine all starting positions at which the substring occurs within the main string.
 
@@ -416,8 +404,6 @@ int main(void) {
 
 ### **Problem 7. Count Words and Normalize Whitespace**
 
-FILE: 07_word_count_normalization.c
-
 **Problem statement:** Write a C program that reads a complete sentence into a character array and performs two operations without using any string library function.
 
 First, count the number of words in the sentence, considering any sequence of spaces or tab characters as a separator between words. Second, modify the same character array to eliminate leading and trailing whitespace and replace consecutive spaces or tabs with a single space.
@@ -496,8 +482,6 @@ In this section, include `<string.h>` to use the string manipulation functions p
 
 ### **Problem 8. Determine String Length Using&#x20;**`strlen()`
 
-FILE: 08_strlen.c
-
 **Problem statement:** Write a C program that reads a complete sentence and determines its length using the standard library function `strlen()`.
 
 The program must remove the trailing newline character, if present, using `strcspn()` before calculating the length. Display the string and its length. Compare the conceptual working of `strlen()` with the manual traversal implemented in Problem 1.
@@ -530,8 +514,6 @@ int main(void) {
 ```
 
 ### **Problem 9. Construct a Full Name Using&#x20;**`strcpy()`**&#x20;and&#x20;**`strcat()`
-
-FILE: 09_name_construction.c
 
 **Problem statement:** Write a C program that accepts the first name and last name of a person in separate character arrays.
 
@@ -582,8 +564,6 @@ int main(void) {
 ```
 
 ### **Problem 10. Sort an Array of Names Alphabetically Using&#x20;**`strcmp()`
-
-FILE: 10_sort_names.c
 
 **Problem statement:** Write a C program that reads five names and stores them in a two-dimensional character array.
 
@@ -658,8 +638,6 @@ int main(void) {
 ```
 
 ### **Problem 11. Search for Characters and Substrings Using Library Functions**
-
-FILE: 11_string_search.c
 
 **Problem statement:** Write a C program that reads a sentence, a character to search for, and a substring.
 
@@ -752,8 +730,6 @@ int main(void) {
 
 ### **Problem 12. Split a Sentence into Words Using&#x20;**`strtok()`
 
-FILE: 12_string_tokenization.c
-
 **Problem statement:** Write a C program that accepts a complete sentence and separates it into individual words using the standard library function `strtok()`.
 
 Treat spaces, tabs, commas, periods, semicolons, colons, exclamation marks, and question marks as word delimiters. Consecutive delimiters must not produce empty words.
@@ -815,3 +791,5 @@ int main(void) {
 }
 
 ```
+
+---
